@@ -1,0 +1,18 @@
+profiles:
+  NewESP32-S3:
+    fqbn: esp32:esp32:esp32s3:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=240,FlashMode=qio,FlashSize=16M,PartitionScheme=custom,DebugLevel=none,PSRAM=opi,LoopCore=0,EventsCore=1,EraseFlash=none,JTAGAdapter=default,ZigbeeMode=default
+    platforms:
+      - platform: esp32:esp32 (3.3.5)
+    libraries:
+      - Async TCP (3.4.9)
+      - ESP Async WebServer (3.9.3)
+      - ArduinoJson (7.4.2)
+    programmer: ""
+    port_config:
+      baudrate: "115200"
+      lineEnding: "\r\n"
+      bits: "8"
+      parity: none
+      stop_bits: "1"
+    port: /dev/ttyACM0
+default_profile: NewESP32-S3

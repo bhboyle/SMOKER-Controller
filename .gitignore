@@ -1,0 +1,9 @@
+# Build output
+build/
+
+# Source files
+SRC/
+
+# IDE and tooling
+.vscode/
+.pio/

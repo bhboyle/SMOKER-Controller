@@ -1,0 +1,17 @@
+profiles:
+  ESP32-P4:
+    fqbn: esp32:esp32:esp32p4:UploadSpeed=921600,USBMode=default,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,FlashFreq=80,FlashMode=qio,FlashSize=16M,PartitionScheme=default,DebugLevel=none,PSRAM=enabled,EraseFlash=none,JTAGAdapter=default,ChipVariant=prev3
+    platforms:
+      - platform: esp32:esp32 (3.3.5)
+    libraries:
+      - lvgl (9.4.0)
+      - PID (1.2.0)
+    programmer: ""
+    port_config:
+      baudrate: "115200"
+      lineEnding: "\r\n"
+      bits: "8"
+      parity: none
+      stop_bits: "1"
+    port: /dev/ttyACM0
+default_profile: ESP32-P4
