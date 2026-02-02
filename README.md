@@ -48,6 +48,10 @@ This project consists of two ESP32 microcontrollers working together to provide 
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
+### Build environment.
+It is worth noting that I used the excelent [Arduinio Maker Workshop](https://github.com/thelastoutpostworkshop/arduino-maker-workshop) VSCode add on for these projects. Each one of the two projects included here includes the build profiles so assuming you use the same hardware you can comnpile it without any issues with libraries.
+
+
 ### ESP32-P4: Display Controller
 **Location:** [DisplayControler/](DisplayControler/)
 
