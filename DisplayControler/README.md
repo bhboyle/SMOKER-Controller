@@ -13,6 +13,9 @@ An ESP32-P4 based touchscreen controller for monitoring and controlling a smoker
 - **Configurable Settings**: PID tuning parameters, display intervals, and UI settings stored in NVS (non-volatile storage)
 - **Safety Watchdog**: Automatically disables fan if temperature data is not received within 10 seconds
 
+![Smoker Controller](https://img.shields.io/badge/Platform-ESP32--P4-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ## Hardware Requirements
 
 ### Display Controller (This Unit)
