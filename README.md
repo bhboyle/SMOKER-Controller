@@ -193,7 +193,7 @@ After WiFi setup:
 - View 2-hour temperature history chart
 - Adjust calibration offsets in Settings
 - Tune PID parameters if needed
-- Record, edit and save smoking session in database
+- Record, edit and save smoking sessions in database
 
 ### OTA Updates
 1. Navigate to `http://smoker.local/update`
