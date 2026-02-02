@@ -6,7 +6,7 @@ I would like to talk about the dual ESP32 design. I originally had planned to us
 
 ## ⚠️ Safety Warning
 
-** 🔥🔥This project involves controlling and working with fire. Use at your own risk.🔥🔥**
+**🔥🔥This project involves controlling and working with fire. Use at your own risk.🔥🔥**
 
 **IMPORTANT:**
 - This software is provided as-is with no guarantees of safety or reliability
