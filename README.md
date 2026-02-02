@@ -4,6 +4,8 @@ A dual-ESP32 based smart controller system for pellet or Gravity smokers, featur
 
 I would like to talk about the dual ESP32 design. I originally had planned to use just the display ESP32P$(with its ESP32-C6) however I found that the system lagged more than I was comfortable with and decided to add the ESP32-S3. I also went with the ESP32-S3-N16R8 version allowing for large filesystem to store smoker logs which I plan to use for "receipies." I also liked the OTA option for the web server given its going to be difficult to update once installed. I don't expect to need to update the display ESP32-P4 now that it is only driving the display, fan and tach.  
 
+![Image of controller](images/Housing.jpg)
+
 ![Platform](https://img.shields.io/badge/Platform-ESP32--P4%20%2B%20ESP32--S3-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
