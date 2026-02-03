@@ -75,18 +75,19 @@ The web server module handles connectivity and sensing:
 - REST API for integration
 - OTA (Over-The-Air) firmware updates
 - mDNS support (`smoker.local`)
+- [Example here from Amazon](https://www.amazon.ca/HiLetgo-ESP32-S3-ESP32-S3-DevKit-Bluetooth-Development/dp/B0CDWXWXCG)
 
 ## Features
 
 ### Temperature Monitoring
 - Dual K-type thermocouple inputs (smoker chamber + food probe)
 - Calibration offsets (-50 to +50°F) stored in non-volatile memory
-- 2-hour temperature history with graphing
+- 2-hour temperature history with graphing both on display and webpage
 - Real-time updates via WebSocket (1-second refresh)
 
 ### Temperature Control
 - PID algorithm for precise temperature maintenance
-- Configurable PID parameters (Kp, Ki, Kd)
+- Configurable PID parameters (Kp, Ki, Kd) from the webpage
 - Fan-based airflow control with RPM feedback
 - Target temperature range: 150-500°F
 
