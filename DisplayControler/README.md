@@ -138,7 +138,7 @@ DisplayControler/
 ## Safety Features
 
 - **Temperature Watchdog**: If no temperature data is received from the ESP32-S3 for 10 seconds, the fan is automatically disabled to prevent uncontrolled heating
-- **PID Output Limits**: Maximum fan PWM is capped at 255 for safety
+- **PID Output Limits**: Maximum fan PWM is capped at 255 but could be reduced in the code if there is a need to set lower limits. For example if you used a much more powerful fan you may want to reduce its upper limit.
 - **Connection Status**: Display shows "NO LINK" when communication with the temperature sensor module is lost
 
 ## License
