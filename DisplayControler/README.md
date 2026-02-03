@@ -20,6 +20,7 @@ An ESP32-P4 based touchscreen controller for monitoring and controlling a smoker
 
 ### Display Controller (This Unit)
 - **MCU**: ESP32-P4
+- [Device was ordred from here](https://www.aliexpress.com/p/tesla-landing/index.html?scenario=c_ppc_item_bridge&productId=1005009348846335&_immersiveMode=true&withMainCard=true&src=google&aff_platform=true&isdl=yhttps://www.aliexpress.com/p/tesla-landing/index.html?scenario=c_ppc_item_bridge&productId=1005009348846335&_immersiveMode=true&withMainCard=true&src=google&aff_platform=true&isdl=y)
 - **Display**: 1024x600 LCD with JD9165 driver
 - **Touch**: GT911 capacitive touch controller
 - **Fan Output**: PWM on GPIO 28
@@ -115,6 +116,7 @@ This project is designed for the Arduino IDE or VSCode with the Arduino Maker Wo
 2. Install required libraries (LVGL, PID_v1)
 3. Configure `lv_conf.h` for your display settings
 4. Upload to ESP32-P4
+5. Thsi display is configured for the resolution of the device I ordered. If your has a different resolution you will have to adjust things considerably.
 
 ## File Structure
 
