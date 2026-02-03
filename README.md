@@ -57,7 +57,7 @@ It is worth noting that I used the excelent [Arduinio Maker Workshop](https://gi
 ### ESP32-P4: Display Controller
 **Location:** [DisplayControler/](DisplayControler/)
 
-The display unit provides the physical user interface:
+The display unit(JC1060P470) provides the physical user interface:
 - 1024x600 LCD touchscreen with GT911 capacitive touch
 - PID-based temperature control algorithm
 - PWM fan control with RPM feedback
