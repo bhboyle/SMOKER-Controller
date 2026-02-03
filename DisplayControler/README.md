@@ -116,6 +116,7 @@ This project is designed for the Arduino IDE or VSCode with the Arduino Maker Wo
 2. Install required libraries (LVGL, PID_v1)
 3. Configure `lv_conf.h` for your display settings
 4. Upload to ESP32-P4
+5. Thsi display is configured for the resolution of the device I ordered. If your has a different resolution you will have to adjust things considerably.
 
 ## File Structure
 
