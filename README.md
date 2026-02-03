@@ -62,6 +62,7 @@ The display unit provides the physical user interface:
 - Real-time temperature charting
 - Cook timer functionality
 - Safety watchdog (auto-disables fan if communication lost)
+- [Ordered from here](https://www.aliexpress.com/p/tesla-landing/index.html?scenario=c_ppc_item_bridge&productId=1005009348846335&_immersiveMode=true&withMainCard=true&src=google&aff_platform=true&isdl=yhttps://www.aliexpress.com/p/tesla-landing/index.html?scenario=c_ppc_item_bridge&productId=1005009348846335&_immersiveMode=true&withMainCard=true&src=google&aff_platform=true&isdl=y)
 
 ### ESP32-S3: Web Server
 **Location:** [SmokerWebServer/](SmokerWebServer/)
