@@ -61,7 +61,7 @@ The display unit provides the physical user interface:
 - 1024x600 LCD touchscreen with GT911 capacitive touch
 - PID-based temperature control algorithm
 - PWM fan control with RPM feedback
-  - it is worth noting that the system down not have to drive a fan. With some minor changes this system could drive a servo to control an ball valve for example to control passive fire systems like other Gravity Smokers.
+  - it is worth noting that the system does not have to drive a fan. With some minor changes this system could drive a servo to control an ball valve for example to control passive fire systems like other Gravity Smokers.
 - Real-time temperature charting
 - Cook timer functionality
 - Safety watchdog (auto-disables fan if communication lost)
