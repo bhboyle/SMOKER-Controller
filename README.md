@@ -112,7 +112,7 @@ The web server module handles connectivity and sensing:
 
 | Component                    | Quantity | Purpose                   |
 |------------------------------|----------|---------------------------|
-| ESP32-P4 Development Board   | 1        | Display controller        |
+| [ESP32-P4 Development Board](https://www.aliexpress.com/p/tesla-landing/index.html?scenario=c_ppc_item_bridge&productId=1005009348846335&_immersiveMode=true&withMainCard=true&src=google&aff_platform=true&isdl=yhttps://www.aliexpress.com/p/tesla-landing/index.html?scenario=c_ppc_item_bridge&productId=1005009348846335&_immersiveMode=true&withMainCard=true&src=google&aff_platform=true&isdl=y)   | 1        | Display controller        |
 | ESP32-S3-DevKitC-1 (N16R8)   | 1        | Web server, WiFi, sensors |
 | 1024x600 LCD (JD9165 driver) | 1        | Main display              |
 | GT911 Touch Controller       | 1        | Touchscreen input         |
