@@ -177,6 +177,10 @@ DATA:smokerTemp,foodTemp,setTemp,rpm,pwm,fanOn,timerMs,Kp,Ki,Kd
 CONFIG:dispInterval,chartInterval,buttonHold,swapInterval,fadeDuration,Kp,Ki,Kd
 ```
 
+## PID Tuning:
+I used [this page](https://www.compuphase.com/electronics/reflowsolderprofiles.htm#_) to help me with the PID tuning. 
+It help me know which numbers to change and how. I started with a P value of 20 and zero for both I and D. This worked fairly well but through iterative testing I settled on P=7 I=.01 and D=.2 Your setup may be different but the page above would help you alot. 
+
 ## Installation
 I used the Arduino Maker Workshop plugin for VSCode so the Sketch.yaml file in both project folders contians the library data and versions so there should be no conflicts when building.
 
