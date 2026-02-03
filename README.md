@@ -221,6 +221,7 @@ After WiFi setup:
 - Adjust calibration offsets in Settings
 - Tune PID parameters if needed
 - Record, edit and save smoking sessions in database
+![log image](images/Log.jpg)
 
 ### OTA Updates
 1. Navigate to `http://smoker.local/update`
