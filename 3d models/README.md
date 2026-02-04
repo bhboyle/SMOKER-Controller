@@ -5,3 +5,5 @@ The template file is to be used to drill mounting holes if necessary.
 The PCB for the second ESP32 the S3 and the MAX7765 among other things was fabricated on a perf board. The PCB mounting model is for attaching the two boards together. The perf board I used was [this one](https://www.amazon.ca/dp/B07Y3DVM1W?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1).
 
 I added some electrical tape on the under side of the retainer clips to act as padding. Not totally necessary but it seemed like a good idea to me.
+
+The "Smoker Housing.f3d" file is the Fusion file for all compoments. With that you can make any changes you might need.
