@@ -2,7 +2,7 @@
 
 A dual-ESP32 based smart controller system for pellet or Gravity smokers, featuring a touchscreen display unit and WiFi-enabled web interface for remote monitoring and control. 
 
-I would like to talk about the dual ESP32 design. I originally had planned to use just the display ESP32P4(with its ESP32-C6) however I found that the system lagged more than I was comfortable with and decided to add the ESP32-S3. I also went with the ESP32-S3-N16R8 version allowing for a large filesystem to store smoker logs which I plan to use for "recipes." I also liked the OTA option for the web server given its going to be difficult to update once installed in the smokers housing. I don't expect to need to update the display ESP32-P4 now that it is only driving the display, fan and tach.
+Some notes about the dual ESP32 design. I originally had planned to use just the display ESP32P4(with its ESP32-C6) however I found that the system lagged more than I was comfortable with and decided to add the ESP32-S3. This may have been my skills or something else. I also went with the ESP32-S3-N16R8 version for the web server allowing for a large filesystem to store smoker logs which I plan to use for "recipes." I also liked the OTA option for the web server given its going to be difficult to update once installed in the smokers housing. I don't expect to need to update the display ESP32-P4 now that it is only driving the display, fan and tach.
 
 This system is not intended to less expensive than other options out in the aftermarket stores. In fact with all the hardware testing I did it was notably more expensive than an existing product. However, now that it is done, I have exactly what I wanted, it is configurable and updatable in ways store bought options could never be. This has been a passion project that is now ready to be tested on my Masterbuilt Gravity smoker.
 
@@ -11,7 +11,7 @@ This system is not intended to less expensive than other options out in the afte
 **🔥🔥This project involves controlling and working with fire. Use at your own risk.🔥🔥**
 
 **IMPORTANT:**
-- This software is provided as-is with no guarantees of safety or reliability
+- This software and design is provided as-is with no guarantees of safety or reliability
 - You assume all responsibility for any damage, injury, or loss resulting from the use of this project
 - Always follow proper fire safety protocols and never leave your smoker unattended
 - Ensure your hardware setup meets all local electrical and fire safety codes
@@ -51,8 +51,7 @@ This project consists of two ESP32 microcontrollers working together to provide 
 ```
 
 ### Build environment.
-It is worth noting that I used the excelent [Arduinio Maker Workshop](https://github.com/thelastoutpostworkshop/arduino-maker-workshop) VSCode add on for these projects. Each one of the two projects included here includes the build profiles so assuming you use the same hardware you can comnpile it without any issues with libraries.
-
+It is worth noting that I used the excelent [Arduinio Maker Workshop](https://github.com/thelastoutpostworkshop/arduino-maker-workshop) VSCode extension for these projects. Each one of the two projects included here includes the build profiles so assuming you use the same hardware you can comnpile it without any issues with libraries.
 
 ### ESP32-P4: Display Controller
 **Location:** [DisplayControler/](DisplayControler/)
@@ -327,6 +326,7 @@ This project is licensed under the MIT License.
 
 - ESP32 Arduino Core developers
 - LVGL graphics library team
+- PID library developer
 - AsyncWebServer library maintainers
 - ElegantOTA for OTA updates
 - Created with assistance from Claude (Anthropic)
