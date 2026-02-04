@@ -249,7 +249,6 @@ Connect to `/ws` for real-time state updates at 1Hz.
 ```
 SMOKER Build/
 ├── README.md                              # This file
-├── partitions.csv                         # ESP32 partition layout
 ├── 5-Schematic/                           # Hardware schematics of display board
 │   ├── 1_PWR.png
 │   ├── 2_LCD.png
@@ -267,9 +266,11 @@ SMOKER Build/
 │       ├── lcd/                           # LCD drivers
 │       └── touch/                         # Touch drivers
 └── SmokerWebServer/                       # ESP32-S3 Web Server
+    ├── partitions.csv                     # ESP32 partition layout 
     ├── SmokerWebServer.ino
     ├── README.md
     └── (web interface files)
+    
 ```
 
 ## Configuration Defaults
