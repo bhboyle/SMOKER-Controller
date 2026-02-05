@@ -121,6 +121,8 @@ The web server module handles connectivity and sensing:
 | MAX6675 Thermocouple Module  | 2        | Temperature sensing           |
 | K-type Thermocouple          | 2        | Smoker & food probes          |
 | 4-wire PWM Fan               | 1        | Airflow control               |
+| [14pin .5mm FPC connector](https://www.amazon.ca/dp/B0CLH5FWKN?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)     | 1        | communication to Web server   |
+| [Flexible flat cable](https://www.amazon.ca/dp/B07RWF4FF6?ref=ppx_yo2ov_dt_b_fed_asin_title)               | 1        | connection with Web server               |
 
 ### Pin Connections
 
