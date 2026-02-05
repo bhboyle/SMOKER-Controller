@@ -119,8 +119,8 @@ The web server module handles connectivity and sensing:
 | 1024x600 LCD (JD9165 driver) | 1        | Main display (Integrated)     |
 | GT911 Touch Controller       | 1        | Touchscreen input (Integrated)|
 | [MAX6675 Thermocouple Module](https://www.amazon.ca/dp/B0DDCGDLGJ?ref=ppx_yo2ov_dt_b_fed_asin_title)  | 2        | Temperature sensing           |
-| K-type Thermocouple          | 1        | Smoker probes  (Just use prone that came with the module)        |
-| [K-type Thermocouple](https://www.amazon.ca/dp/B0BJB1JZKQ)          | 1        | food probes          |
+| K-type Thermocouple          | 1        | Smoker probe (Just use prone that came with the module)        |
+| [K-type Thermocouple](https://www.amazon.ca/dp/B0BJB1JZKQ)          | 1        | food probe          |
 | 4-wire PWM Fan               | 1        | Airflow control               |
 | [14pin .5mm FPC connector](https://www.amazon.ca/dp/B0CLH5FWKN?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)     | 1        | communication to Web server   |
 | [Flexible flat cable](https://www.amazon.ca/dp/B07RWF4FF6?ref=ppx_yo2ov_dt_b_fed_asin_title)               | 1        | connection with Web server               |
