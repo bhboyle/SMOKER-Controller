@@ -106,7 +106,7 @@ The web server module handles connectivity and sensing:
 ### Safety Features
 - Temperature watchdog: Fan auto-disables if no data received for 10 seconds
 - PID output limits for controlled operation
-- Visual "NO LINK" indicator when communication is lost
+- Visual "NO LINK" indicator on display when communication is lost with web server.
 
 ## Hardware Requirements
 
